@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
   }
   
+  
   #canvas {
     margin: 0;
     padding: 0;
@@ -40,14 +41,30 @@ img:hover {
     font-weight: 400;
 }
 
+span {
+  color: white;
+}
+
 span:hover{
-  color: #ffffff;
+  color: #c83131;
 }
 
 .icons i {
     font-size: 30px
 }
 
+i:hover{
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .container{
   padding-top: 15%;
+}
+
+p.round {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px;
 }

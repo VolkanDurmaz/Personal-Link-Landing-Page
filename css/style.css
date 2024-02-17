@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  #canvas {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background: #000000;
+    z-index: -1;
+    width: max-content;
+  }
+
+.image img {
+  border-radius: 50%;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px;
+}
+
+img:hover {
+  border-color: #70a2ee;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.text{
+  text-align: center;
+}
+
+.text span {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+span:hover{
+  color: #ffffff;
+}
+
+.icons i {
+    font-size: 30px
+}
+
+.container{
+  padding-top: 15%;
+}

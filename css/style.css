@@ -68,3 +68,18 @@ p.round {
   border-radius: 8px;
   padding: 5px;
 }
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 10;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-white);
+  --bs-btn-border-color: var(--bd-white);
+  --bs-btn-border-radius: 2rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 100%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-white, 100%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-white, 100%)};
+}

@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
   }
   
+  
   #canvas {
     margin: 0;
     padding: 0;
@@ -59,8 +60,7 @@ i:hover{
 }
 
 .container{
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 15%;
 }
 
 p.round {
@@ -69,8 +69,17 @@ p.round {
   padding: 5px;
 }
 
-.footer {
-  font-size: 12px;
-  font-weight: bold;
-  color:#ffffff;
+.btn-bd-primary {
+  --bs-btn-font-weight: 10;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-white);
+  --bs-btn-border-color: var(--bd-white);
+  --bs-btn-border-radius: 2rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 100%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-white, 100%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-white, 100%)};
 }

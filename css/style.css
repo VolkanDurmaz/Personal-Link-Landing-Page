@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
   }
   
-  #canvas {
+#canvas {
     margin: 0;
     padding: 0;
     position: fixed;
@@ -71,6 +71,6 @@ p.round {
 
 .footer {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   color:#ffffff;
 }
